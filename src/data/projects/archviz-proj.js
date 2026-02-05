@@ -1,0 +1,75 @@
+export default { 
+    id: 3,
+    show: true,
+    slug: 'archviz-visualization',
+    link: '/project/archviz-visualization',
+    cardImage: '/images/publications/archviz/cover.png',
+    title: 'ArchViz & Interactive Interior Visualization' ,
+    role: 'VR Developer',
+    types: ['VR Walkthrough', 'Visualization'],
+    shortDescription: 'A high-fidelity, interactive Dubai apartment replica built for immersive architectural visualization with real-time customization capabilities.',
+    tags: ['VR', 'Unreal Engine', 'Blender', 'ArchViz', 'Real Estate', 'Photorealism'],
+    link1:[''],
+    citation:'',
+    mainArt: {
+      type: 'image',
+      src: 'images/publications/archviz/main.jpg',
+      alt: 'Dubai Apartment Visualization',
+      description: ''
+    },
+    secondaryArt: {
+      type: 'image',
+      src: 'images/publications/archviz/secondary.jpg',
+      alt: 'Interior Design Walkthrough',
+      description: ''
+    },
+    summaryHtml: `
+      <h3>Overview</h3>
+      <p>
+      A photorealistic VR environment replicating a luxury Dubai apartment. This immersive experience combines 
+      architectural accuracy with interactive design elements, allowing clients to explore, customize, and validate 
+      design decisions in real-time within a fully realized virtual space.
+      </p>
+      
+      <h3>Key Features</h3>
+      <ul>
+        <li><strong>High-Fidelity Modeling:</strong> Meticulously detailed asset creation using Blender</li>
+        <li><strong>Advanced Lighting:</strong> Baked lighting with realistic material properties for photorealism</li>
+        <li><strong>Interactive Walkthroughs:</strong> Smooth navigation and VR interaction mechanics</li>
+        <li><strong>Real-Time Customization:</strong> Dynamic interior element customization during experience</li>
+        <li><strong>Performance Optimized:</strong> Stable 90+ FPS on VR hardware</li>
+      </ul>
+
+      <h3>Use Cases</h3>
+      <ul>
+        <li>Real estate marketing and client presentations</li>
+        <li>Interior design validation and decision-making</li>
+        <li>Client design consultation and feedback</li>
+        <li>Property visualization before construction completion</li>
+      </ul>
+
+      <h3>Technical Achievements</h3>
+      <p>
+      <strong>Tools:</strong> Unreal Engine 5, Blender, Substance Painter<br>
+      <strong>Optimization:</strong> LOD systems, texture atlasing, reduced draw calls<br>
+      <strong>Scale Accuracy:</strong> 1:1 architectural scale with precise measurements
+      </p>
+    `,
+  
+    gallery: [
+      {
+        type: 'image',
+        src: '/images/publications/archviz/main.jpg',
+        alt: 'Living Room',
+        topText: '',
+        bottomText: 'Photorealistic living space'
+      },
+      {
+        type: 'image',
+        src: '/images/publications/archviz/secondary.jpg',
+        alt: 'Bedroom View',
+        topText: '',
+        bottomText: 'Interactive interior design'
+      }
+    ]
+}
