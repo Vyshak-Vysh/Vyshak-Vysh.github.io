@@ -7,8 +7,8 @@ export default {
     title: 'Metaverse & Virtual Interaction Projects' ,
     role: 'XR Developer',
     types: ['Metaverse', 'NFT Integration'],
-    shortDescription: 'Metaverse-oriented XR environments blending immersive interaction with emerging digital economies, NFT integration, and blockchain-driven ownership.',
-    tags: ['Metaverse', 'NFT', 'Avatar Systems', 'Virtual Economy', 'Blockchain', 'Unity'],
+    shortDescription: 'Metaverse-ready digital wallet and NFT transaction system integrated into an Unreal Engine-based virtual world. Focused on enabling secure NFT ownership verification and in-world transactions.',
+    tags: ['Metaverse', 'NFT', 'Web3', 'Wallet Integration', 'Blockchain', 'Unreal Engine'],
     link1:[''],
     citation:'',
     mainArt: {
