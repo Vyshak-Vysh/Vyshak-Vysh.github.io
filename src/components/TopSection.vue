@@ -5,8 +5,8 @@
       <div class="top-content">
         <router-link to="/">
           <img
-          :src="'/images/VR_logo.svg'"
-          alt="VR Logo"
+          :src="'/images/VR_logo.png'"
+          alt="Logo"
           class="top-logo"
         />
 </router-link>
@@ -83,7 +83,7 @@ const isLight = inject('isLight')
  
    .top-logo
    {
-       width: 200px;
+       width: 100px;
    }
  
  
@@ -110,7 +110,7 @@ const isLight = inject('isLight')
  
    .top-logo
    {
-       width: 200px; 
+       width: 100px; 
    }
  
  
@@ -134,7 +134,7 @@ const isLight = inject('isLight')
   }
 
   .top-logo {
-    width: 160px; 
+    width: 80px; 
   }
 }
 
