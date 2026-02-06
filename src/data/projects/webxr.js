@@ -6,7 +6,7 @@ export default {
     cardImage: '/images/publications/webxr/cover.png',
     title: 'WebXR Cross-Platform XR Experience' ,
     role: 'Web XR Developer',
-    types: ['WebXR', 'Browser-Based'],
+    types: ['WebXR', 'Browser-Based', 'Unity'],
     shortDescription: 'A browser-based desert-themed XR environment accessible without native installation, optimized for mobile, PC, and VR browsers.',
     tags: ['WebXR', 'AR', 'VR', 'Unity', 'Web3D', 'Cross-Platform'],
     link1:[''],

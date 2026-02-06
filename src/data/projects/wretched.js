@@ -11,7 +11,7 @@ export default
       link2:'',
       shortDescription: 'A VR Horror Shooter Game',
       tags: ['Oculus', 'Unity', 'VR'],
-      types: [ 'Published Games'],
+      types: [ 'Published Games', 'Unity'],
       mainArt: {
         type: 'image',
         src: 'images/wretched/Wretched1920x1080.png',

@@ -6,7 +6,7 @@ export default {
     cardImage: '/images/publications/arinspection/cover.png',
     title: 'AI-Driven AR Inspection System' ,
     role: 'AR/VR Developer',
-    types: ['Industrial AR', 'Mobile App'],
+    types: ['Industrial AR', 'Mobile App', 'Unity'],
     shortDescription: 'A production-focused industrial AR solution designed to detect and visualize real-time spatial deviations in mechanical systems using Unity 6 and OpenCV.',
     tags: ['AR', 'Unity 6', 'OpenCV', 'iOS', 'AI', 'Industrial'],
     link1:[''],

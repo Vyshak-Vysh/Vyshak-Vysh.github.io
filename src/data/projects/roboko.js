@@ -11,7 +11,7 @@ export default
       link2:'',
       shortDescription: 'Multiplayer VR Boxing Game',
       tags: ['Oculus', 'Unity', 'VR','XR','EOS', 'Fishnet'],
-      types: [ 'Published Games'],
+      types: [ 'Published Games', 'Unity'],
       mainArt: {
         type: 'image',
         src: 'images/roboko/Cover.png',

@@ -6,7 +6,7 @@ export default {
     cardImage: '/images/publications/heterotopia/cover.png',
     title: 'Developing a framework for heterotopias as discursive playgrounds: a comparative analysis of non-immersive and immersive technologies' ,
     role: 'Author',
-    types: ['Publications'],
+    types: ['Publications', 'Unity'],
     shortDescription: 'Korkut, E.H., Surer, E. Developing a framework for heterotopias as discursive playgrounds: a comparative analysis of non-immersive and immersive technologies.  Virtual Reality 28, 16 (2024). https://doi.org/10.1007/s10055-023-00905-w',
     tags: ['VR','XR','PC', 'Unity', 'Virtual Museum'],
     link1:['https://link.springer.com/article/10.1007/s10055-023-00905-w#citeas'],

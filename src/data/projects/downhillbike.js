@@ -11,7 +11,7 @@ export default
       link2:'',
       shortDescription: 'Bicycle Simulation Game',
       tags: ['Oculus', 'Unity', 'VR'],
-      types: [ 'Published Games'],
+      types: [ 'Published Games', 'Unity'],
       mainArt: {
         type: 'video',
         src: 'images/downhillbike/DownhillBikev4.mp4',

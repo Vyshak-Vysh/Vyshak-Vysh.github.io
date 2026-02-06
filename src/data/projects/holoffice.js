@@ -11,7 +11,7 @@ export default
       link2:'',
       shortDescription: 'Co-located XR Office App',
       tags: ['Hololens', 'Unity', 'XR', 'Azure','Photon'],
-      types: [ 'Multimedia Projects'],
+      types: [ 'Multimedia Projects', 'Unity'],
       mainArt: {
         type: 'video',
         src: 'images/holoffice/holofficev1.mp4',

@@ -6,7 +6,7 @@ export default {
     cardImage: '/images/publications/archviz/cover.png',
     title: 'ArchViz & Interactive Interior Visualization' ,
     role: 'VR Developer',
-    types: ['VR Walkthrough', 'Visualization'],
+    types: ['VR Walkthrough', 'Visualization', 'Unreal Engine', 'Blender'],
     shortDescription: 'A high-fidelity, interactive Dubai apartment replica built for immersive architectural visualization with real-time customization capabilities.',
     tags: ['VR', 'Unreal Engine', 'Blender', 'ArchViz', 'Real Estate', 'Photorealism'],
     link1:[''],

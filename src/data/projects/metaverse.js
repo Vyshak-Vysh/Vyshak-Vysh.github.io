@@ -6,7 +6,7 @@ export default {
     cardImage: '/images/publications/metaverse/cover.png',
     title: 'Metaverse & Virtual Interaction Projects' ,
     role: 'XR Developer',
-    types: ['Metaverse', 'NFT Integration'],
+    types: ['Metaverse', 'NFT Integration', 'Unreal Engine'],
     shortDescription: 'Metaverse-ready digital wallet and NFT transaction system integrated into an Unreal Engine-based virtual world. Focused on enabling secure NFT ownership verification and in-world transactions.',
     tags: ['Metaverse', 'NFT', 'Web3', 'Wallet Integration', 'Blockchain', 'Unreal Engine'],
     link1:[''],

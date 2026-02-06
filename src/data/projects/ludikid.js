@@ -11,7 +11,7 @@ export default
       link2:'',
       shortDescription: 'A VR Horror Adventure Game',
       tags: ['Oculus', 'Unity', 'Photon'],
-      types: [ 'Published Games'],
+      types: [ 'Published Games', 'Unity'],
       mainArt: {
         type: 'image',
         src: '/images/tunnels/1920x1080.png',
