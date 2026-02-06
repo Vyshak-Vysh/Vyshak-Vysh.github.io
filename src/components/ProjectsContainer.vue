@@ -9,7 +9,7 @@
         v-for="category in categories"
         :key="category"
         class="filter-btn"
-        :class="{ active: selectedCategory === category }"
+        :class="{ active: selectedCategory === category, 'all-filter': category === 'All', 'unity-filter': category === 'Unity' }"
         @click="applyFilter(category)"
       >
         {{ category }}
@@ -142,6 +142,14 @@ onMounted(() => {
 .filter-btn.active {
   background-color: var(--selected-color-button);
   font-weight: bold;
+}
+.filter-btn.active.unity-filter,
+.filter-btn.active.all-filter {
+  background-image: url('/images/Robotic_ARM/Robotic_ARM.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
 }
 .dropdown-container {
   display: none;
