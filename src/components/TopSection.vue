@@ -5,7 +5,7 @@
       <div class="top-content">
         <router-link to="/">
           <img
-          :src="isLight ? '/images/Raccoon_Logo.png' : '/images/Raccoon_Logo_white.png'"
+          :src="'/images/VR_logo.png'"
           alt="Logo"
           class="top-logo"
         />
