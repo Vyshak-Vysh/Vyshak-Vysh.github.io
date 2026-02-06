@@ -32,19 +32,26 @@ export default {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, border 0.3s ease;
   z-index: 1;
   width: 100%;
-  max-width: 360px;
-  margin: 1rem auto;
+  height: 100%;
+  margin: 0 auto;
   box-sizing: border-box;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 480px) {
   .project-card {
     max-width: 100%;
-    
   }
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border: 2px solid #ffffff;
 }
 
 .project-card img {
@@ -55,15 +62,12 @@ export default {
   border-radius: 0px;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
-}
-
 .project-content {
   padding: 16px;
   background: var(--primary-color);
   width: 100%;
   box-sizing: border-box;
+  flex: 1;
 }
 
 .project-content .header {

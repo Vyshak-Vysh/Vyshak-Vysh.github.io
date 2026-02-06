@@ -64,7 +64,7 @@ import { ref, onMounted, computed } from "vue";
 import { projects } from "../data/projects.js";
 import ProjectCard from "./ProjectCard.vue";
 
-const categories = ["All", "Published Games", "Multimedia Projects", "Publications"];
+const categories = ["All"];
 const selectedCategory = ref("All");
 const filteredProjects = ref([]);
 const dropdownVisible = ref(false);
@@ -73,8 +73,7 @@ const dropdownVisible = ref(false);
 const gridClasses = computed(() => {
   return {
     "projects-grid": true,
-    "regular-grid": filteredProjects.value.length < 4,
-    "colossal-grid": filteredProjects.value.length >= 4,
+    "five-column-grid": true,
   };
 });
 
@@ -197,54 +196,43 @@ onMounted(() => {
 .projects-grid {
   padding: 20px;
 }
-/* Base style: 3 columns */
-.colossal-grid {
-  column-count: 3;
-  column-gap: 1.5rem;
-}
-.regular-grid {
+/* Fixed 5-column grid */
+.five-column-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1.5rem;
 }
 .project-card-wrapper {
   width: 100%;
-  margin-bottom: 1.5rem;
   display: block;
-}
-.colossal-grid .project-card-wrapper {
-  break-inside: avoid;
 }
 
 /* --- Responsive Breakpoints --- */
 
-/* NEW: For large screens */
-@media (min-width: 1400px) {
-  .colossal-grid { column-count: 4; }
-  .regular-grid { grid-template-columns: repeat(4, 1fr); }
+/* For extra-large screens */
+@media (min-width: 1800px) {
+  .five-column-grid { grid-template-columns: repeat(5, 1fr); }
 }
 
-/* NEW: For extra-large screens */
-@media (min-width: 1800px) {
-  .colossal-grid { column-count: 5; }
-  .regular-grid { grid-template-columns: repeat(5, 1fr); }
+/* For large screens */
+@media (min-width: 1400px) {
+  .five-column-grid { grid-template-columns: repeat(5, 1fr); }
 }
 
 /* For tablets and small desktops */
 @media (max-width: 1024px) {
-  .colossal-grid { column-count: 2; }
-  .regular-grid { grid-template-columns: repeat(2, 1fr); }
+  .five-column-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
-/* For changing filter UI to dropdown */
+/* For mobile tablets */
 @media (max-width: 750px) {
   .filters { display: none; }
-  .dropdown-container { display: block; }
+  .dropdown-container { display: none; }
+  .five-column-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* For mobile */
 @media (max-width: 500px) {
-  .colossal-grid { column-count: 1; }
-  .regular-grid { grid-template-columns: repeat(1, 1fr); }
+  .five-column-grid { grid-template-columns: repeat(1, 1fr); }
 }
 </style>
