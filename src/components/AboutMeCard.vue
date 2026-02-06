@@ -82,7 +82,7 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center bottom;
+  object-position: center 35%;
   display: block;
 }
 
