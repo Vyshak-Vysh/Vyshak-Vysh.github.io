@@ -3,7 +3,7 @@ export default {
     show: true,
     slug: 'ai-ar-inspection',
     link: '/project/ai-ar-inspection',
-    cardImage: '/images/publications/arinspection/cover.png',
+    cardImage: '/images/Robotic_ARM/Robotic_ARM.png',
     title: 'AI-Driven AR Inspection System' ,
     role: 'AR/VR Developer',
     types: ['Industrial AR', 'Mobile App', 'Unity'],
