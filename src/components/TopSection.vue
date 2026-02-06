@@ -83,7 +83,7 @@ const isLight = inject('isLight')
  
    .top-logo
    {
-       width: 100px;
+       width: 200px;
    }
  
  
@@ -110,7 +110,7 @@ const isLight = inject('isLight')
  
    .top-logo
    {
-       width: 100px; 
+       width: 200px; 
    }
  
  
@@ -134,7 +134,7 @@ const isLight = inject('isLight')
   }
 
   .top-logo {
-    width: 80px; 
+    width: 160px; 
   }
 }
 
