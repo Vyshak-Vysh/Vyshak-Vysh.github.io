@@ -3,7 +3,7 @@ export default {
     show: true,
     slug: 'webxr-desert',
     link: '/project/webxr-desert',
-    cardImage: '/images/publications/webxr/cover.png',
+    cardImage: '/images/WebXR_Prj/WebXR_pic.png',
     title: 'WebXR Cross-Platform XR Experience' ,
     role: 'Web XR Developer',
     types: ['WebXR', 'Browser-Based', 'Unity'],

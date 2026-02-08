@@ -3,7 +3,7 @@ export default {
     show: true,
     slug: 'metaverse-nft',
     link: '/project/metaverse-nft',
-    cardImage: '/images/publications/metaverse/cover.png',
+    cardImage: '/images/UE_Meta/NFT_pic.png',
     title: 'Metaverse & Virtual Interaction Projects' ,
     role: 'XR Developer',
     types: ['Metaverse', 'NFT Integration', 'Unreal Engine'],

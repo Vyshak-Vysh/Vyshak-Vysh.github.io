@@ -3,7 +3,7 @@ export default {
     show: true,
     slug: 'ranwin-inspection',
     link: '/project/ranwin-inspection',
-    cardImage: '/images/publications/ranwin/cover.png',
+    cardImage: '/images/Ranwin_project/AR inspection in industrial settings.png',
     title: 'Ranwin Industrial AR Inspection Project' ,
     role: 'AR Developer',
     types: ['Industrial AR', 'Large-Scale Assets', 'Unity'],

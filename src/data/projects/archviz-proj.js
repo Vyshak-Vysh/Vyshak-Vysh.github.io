@@ -3,7 +3,7 @@ export default {
     show: true,
     slug: 'archviz-visualization',
     link: '/project/archviz-visualization',
-    cardImage: '/images/publications/archviz/cover.png',
+    cardImage: '/images/UE_Dubai/Archviz.png',
     title: 'ArchViz & Interactive Interior Visualization' ,
     role: 'VR Developer',
     types: ['VR Walkthrough', 'Visualization', 'Unreal Engine', 'Blender'],
