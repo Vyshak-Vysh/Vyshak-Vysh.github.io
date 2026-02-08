@@ -4,8 +4,6 @@ import archvizproj from './projects/archviz-proj.js';
 import metaverse from './projects/metaverse.js';
 import webxr from './projects/webxr.js';
 import lowpolyassets from './projects/lowpoly-assets.js';
-import ludikid from './projects/ludikid.js';
-import processing from './projects/processing.js';
 
 export const projects = [
   arinspection,
@@ -13,9 +11,7 @@ export const projects = [
   archvizproj,
   metaverse,
   webxr,
-  lowpolyassets,
-  ludikid,
-  processing
+  lowpolyassets
 ].filter(p => p.show !== false);
 
 // Debug: Print all project IDs and titles
