@@ -5,7 +5,7 @@ import { ref } from 'vue';
 
 const experience = ref([
     {
-        title: 'AR/VR Developer Intern',
+        title: 'AR/VR Developer',
         company: 'IQ TechMax',
         companyUrl: 'https://iqtechmax.com/', // Added company URL
         period: 'Feb 2025 - Present',

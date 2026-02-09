@@ -39,7 +39,7 @@ export default {
       <h3>Technical Stack</h3>
       <ul>
         <li>Unity (WebGL Build Target)</li>
-        <li>Panther WebXR Plugin for Unity</li>
+        <li>De-Panther WebXR Plugin for Unity</li>
         <li>WebXR Device API</li>
         <li>WebGL & HTML5 Canvas</li>
         <li>JavaScript–Unity WebXR bridge</li>
