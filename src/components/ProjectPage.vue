@@ -59,23 +59,19 @@
     <div class="secondary-wrapper project-wrapper">
       <div class="layout-responsive">
         <template v-if="isMobile">
-          <ProjectResponsibilities :responsibilitiesHtml="project.responsibilitiesHtml" />
           <ArtBlock :art="project.secondaryArt" />
-          <ProjectContributions :contributionsHtml="project.keyContributionsHtml" />
           <ArtBlock v-if="project.optArt" :art="project.optArt" class="optart-block" />
         </template>
 
         <template v-else>
           <!-- Left Column -->
           <div class="column">
-            <ProjectResponsibilities :responsibilitiesHtml="project.responsibilitiesHtml" />
             <ArtBlock :art="project.secondaryArt" />
             <ArtBlock v-if="project.optArt" :art="project.optArt" class="optart-block" />
           </div>
 
           <!-- Right Column -->
           <div class="column">
-            <ProjectContributions :contributionsHtml="project.keyContributionsHtml" />
           </div>
         </template>
       </div>
@@ -116,8 +112,7 @@ import ProjectDetail from '../components/ProjectDetail.vue';
 import ProjectSummary from '../components/ProjectSummary.vue';
 import PublicationSummary from '../components/PublicationSummary.vue';
 import ArtBlock from '../components/ArtBlock.vue';
-import ProjectResponsibilities from '../components/ProjectResponsibilities.vue';
-import ProjectContributions from '../components/ProjectContributions.vue';
+
 import GridGallery from '../components/GridGallery.vue';
 
 const route = useRoute();
