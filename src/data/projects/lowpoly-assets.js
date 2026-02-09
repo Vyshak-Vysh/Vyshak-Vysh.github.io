@@ -15,12 +15,7 @@ export default {
     alt: 'Low-Poly 3D Asset Design',
     description: ''
   },
-  secondaryArt: {
-    type: 'image',
-    src: '/images/VR_Pic_W.png', // Placeholder image
-    alt: 'Low-Poly 3D Asset Design',
-    description: ''
-  },
+  
   summaryHtml: `
     <h3>Overview</h3>
     <p>A collection of original low-poly 3D assets designed and modeled in Blender, focused on creating stylized, performance-optimized models suitable for games, AR/VR applications, and real-time environments. This project showcases my ability to design visually appealing yet lightweight assets, balancing artistic style with technical constraints required for interactive platforms.</p>
@@ -41,13 +36,7 @@ export default {
       <li><strong>Reusable Modular Design:</strong> Assets structured for flexible level design</li>
     </ul>
 
-    <h3>Impact</h3>
-    <ul>
-      <li>Demonstrates strong 3D fundamentals in modeling and asset optimization</li>
-      <li>Suitable for games, VR experiences, AR applications, and WebXR scenes</li>
-      <li>Highlights ability to create custom assets from concept to final model</li>
-      <li>Reinforces expertise as both a 3D Artist and AR/VR Developer</li>
-    </ul>
+    
 
     <h3>Technical Stack</h3>
     <p>Blender, Low-Poly Modeling, UV Mapping, Stylized Asset Design, Game-Ready Asset Export</p>
