@@ -6,12 +6,12 @@ export default {
   title: 'Low-Poly 3D Asset Design',
   role: '3D Artist | Game & XR Asset Creation',
   types: ['Blender'],
-  cardImage: '/images/Blender_pic.png', // Placeholder image
+  cardImage: '/images/Blender_prj/Blender_pic.png', // Placeholder image
   shortDescription: 'A collection of original low-poly 3D assets designed and modeled in Blender, suitable for games, AR/VR, and real-time environments.',
   tags: ['Blender', 'Low-Poly', '3D Modeling', 'Game Assets'],
   mainArt: {
     type: 'image',
-    src: '/images/Blender_pic.png', // Placeholder image
+    src: '/images/Blender_prj/Blender_pic.png', // Placeholder image
     alt: 'Low-Poly 3D Asset Design',
     description: ''
   },
@@ -55,7 +55,7 @@ export default {
   gallery: [
     {
       type: 'image',
-      src: '/images/Blender_pic.png', // Placeholder image
+      src: '/images/Blender_prj/Blender_pic.png', // Placeholder image
       alt: 'Stylized Axe',
       topText: '',
       bottomText: 'Stylized Axe Weapon'
