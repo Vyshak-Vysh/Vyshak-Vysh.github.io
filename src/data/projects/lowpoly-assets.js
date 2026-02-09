@@ -55,15 +55,64 @@ export default {
   gallery: [
     {
       type: 'image',
-      src: '/images/Blender_prj/Blender_pic.png', // Placeholder image
-      alt: 'Stylized Axe',
+      src: '/images/Blender_prj/Axe01.png',
+      alt: 'Axe 01',
       topText: '',
       bottomText: 'Stylized Axe Weapon'
     },
     {
       type: 'image',
-      src: '/images/VR_Pic_W.png', // Placeholder image
-      alt: 'Lighthouse',
+      src: '/images/Blender_prj/Axe03.png',
+      alt: 'Axe 03',
+      topText: '',
+      bottomText: 'Stylized Axe Weapon'
+    },
+    {
+      type: 'image',
+      src: '/images/Blender_prj/Blender_p1.png',
+      alt: 'Blender Project 1',
+      topText: '',
+      bottomText: 'Blender Project Asset'
+    },
+    {
+      type: 'image',
+      src: '/images/Blender_prj/Dungeon002.png',
+      alt: 'Dungeon Asset 02',
+      topText: '',
+      bottomText: 'Modular Dungeon Environment'
+    },
+    {
+      type: 'image',
+      src: '/images/Blender_prj/Dungeon005.png',
+      alt: 'Dungeon Asset 05',
+      topText: '',
+      bottomText: 'Modular Dungeon Environment'
+    },
+    {
+      type: 'image',
+      src: '/images/Blender_prj/Dungeon006.png',
+      alt: 'Dungeon Asset 06',
+      topText: '',
+      bottomText: 'Modular Dungeon Environment'
+    },
+    {
+      type: 'image',
+      src: '/images/Blender_prj/Dungeon008.png',
+      alt: 'Dungeon Asset 08',
+      topText: '',
+      bottomText: 'Modular Dungeon Environment'
+    },
+    {
+      type: 'image',
+      src: '/images/Blender_prj/lighthouse02.png',
+      alt: 'Lighthouse 02',
+      topText: '',
+      bottomText: 'Low-Poly Lighthouse'
+    },
+    {
+      type: 'image',
+      src: '/images/Blender_prj/lighthouse04.png',
+      alt: 'Lighthouse 04',
       topText: '',
       bottomText: 'Low-Poly Lighthouse'
     }
