@@ -35,7 +35,6 @@ export default {
   transition: transform 0.3s ease, border 0.3s ease;
   z-index: 1;
   width: 100%;
-  height: 100%;
   margin: 0 auto;
   box-sizing: border-box;
   border: 2px solid transparent;

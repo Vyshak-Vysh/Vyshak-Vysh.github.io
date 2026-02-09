@@ -25,43 +25,37 @@ export default {
     },
     summaryHtml: `
       <h3>Overview</h3>
-      <p>
-      A cutting-edge WebXR application delivering an immersive desert exploration experience directly through 
-      web browsers. Designed for accessibility and wide reach, enabling AR and VR experiences without requiring 
-      users to download native applications.
-      </p>
-      
+      <p>A WebXR-based immersive desert exploration experience built using Unity WebGL, accessible directly through web browsers. The application supports VR headsets, AR-capable mobile devices, and desktop browsers, enabling users to experience XR content without installing native applications.</p>
+
       <h3>Key Features</h3>
       <ul>
-        <li><strong>Cross-Platform Compatibility:</strong> Works on mobile browsers, PC, and VR headsets via WebXR</li>
-        <li><strong>No Installation Required:</strong> Direct access via URL, reducing friction for users</li>
-        <li><strong>AR & VR Modes:</strong> Single codebase supporting both AR and VR experiences</li>
-        <li><strong>Responsive Performance:</strong> Optimized for varied hardware specifications</li>
-        <li><strong>Immersive Interaction:</strong> Intuitive spatial interaction mechanics</li>
+        <li><strong>Cross-Platform Compatibility:</strong> Works seamlessly on mobile browsers, PCs, and WebXR-supported VR headsets</li>
+        <li><strong>No Installation Required:</strong> Instant access via URL using WebXR-enabled browsers</li>
+        <li><strong>AR & VR Modes:</strong> Single Unity project supporting both AR and VR experiences</li>
+        <li><strong>Optimized Performance:</strong> Designed for low-poly environments and varied hardware capabilities</li>
+        <li><strong>Intuitive Interaction:</strong> Touch, gaze, and controller-based interactions depending on device</li>
       </ul>
 
       <h3>Technical Stack</h3>
       <ul>
-        <li>Unity WebGL Build Target</li>
-        <li>WebXR Device API Integration</li>
-        <li>Three.js / Babylon.js for fallback support</li>
-        <li>Progressive Web App (PWA) capabilities</li>
-        <li>Canvas and WebGL optimization</li>
+        <li>Unity (WebGL Build Target)</li>
+        <li>Panther WebXR Plugin for Unity</li>
+        <li>WebXR Device API</li>
+        <li>WebGL & HTML5 Canvas</li>
+        <li>JavaScript–Unity WebXR bridge</li>
+        <li>Asset and draw-call optimization for web delivery</li>
       </ul>
 
       <h3>Accessibility & Performance</h3>
       <ul>
-        <li>Progressive enhancement for varying device capabilities</li>
-        <li>Reduced bundle size for quick loading</li>
         <li>Adaptive quality settings based on device performance</li>
-        <li>Touch and gesture-based controls</li>
+        <li>Reduced bundle size for faster loading</li>
+        <li>Progressive enhancement for AR, VR, and desktop users</li>
+        <li>Touch, gesture, and controller support</li>
       </ul>
 
       <h3>Impact</h3>
-      <p>
-      Demonstrated the viability of WebXR for delivering immersive experiences without installation barriers, 
-      significantly expanding XR accessibility to mainstream audiences.
-      </p>
+      <p>Demonstrated how Unity-based WebXR applications can deliver immersive XR experiences directly through the browser, significantly lowering entry barriers and expanding XR access to a wider audience.</p>
     `,
   
     gallery: [
