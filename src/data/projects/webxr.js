@@ -19,8 +19,8 @@ export default {
     },
     secondaryArt: {
       type: 'image',
-      src: 'images/publications/webxr/secondary.jpg',
-      alt: 'WebXR Interaction',
+      src: '/images/WebXR_Prj/WebXR_pic.png', // Changed from video to image
+      alt: 'WebXR Interaction Image', // Updated alt text
       description: ''
     },
     summaryHtml: `
@@ -56,6 +56,7 @@ export default {
 
       <h3>Impact</h3>
       <p>Demonstrated how Unity-based WebXR applications can deliver immersive XR experiences directly through the browser, significantly lowering entry barriers and expanding XR access to a wider audience.</p>
+      <p><a href="https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing" target="_blank" rel="noopener noreferrer">Explore Project Video</a></p>
     `,
   
     gallery: [
@@ -72,6 +73,6 @@ export default {
         alt: 'AR Mode',
         topText: '',
         bottomText: 'WebXR AR interaction on mobile'
-      }
-    ]
+      },
+      ]
 }
