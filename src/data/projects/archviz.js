@@ -20,12 +20,7 @@ export default {
       alt: 'AR inspection in industrial settings',
       // description: '<a href="https://drive.google.com/drive/folders/1in1VB_mX_nyk0GXawjRvd05TmbSKCNrw?usp=sharing" target="_blank" rel="noopener noreferrer" class="drive-link" title="Industrial Iron beam Inspection"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg><span class="drive-link-text">Industrial Iron beam Inspection</span></a>'
     },
-    secondaryArt: {
-      type: 'image',
-      src: 'images/publications/ranwin/secondary.jpg',
-      alt: 'Structural Overlay',
-      description: ''
-    },
+    
     summaryHtml: `
       <h3>Overview</h3>
       <p>
@@ -54,20 +49,4 @@ export default {
       <p>Swift (iOS), ARKit, Vuforia Engine, 3D Model Optimization, Spatial Mapping</p>
     `,
   
-    gallery: [
-      {
-        type: 'image',
-        src: '/images/publications/ranwin/main.jpg',
-        alt: 'Large-Scale Inspection',
-        topText: '',
-        bottomText: 'Industrial asset inspection in action'
-      },
-      {
-        type: 'image',
-        src: '/images/publications/ranwin/secondary.jpg',
-        alt: 'Structural Analysis',
-        topText: '',
-        bottomText: 'Digital overlay for dimensional validation'
-      }
-    ]
 }
