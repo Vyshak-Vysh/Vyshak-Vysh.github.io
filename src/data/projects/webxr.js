@@ -56,7 +56,7 @@ export default {
 
       <h3>Impact</h3>
       <p>Demonstrated how Unity-based WebXR applications can deliver immersive XR experiences directly through the browser, significantly lowering entry barriers and expanding XR access to a wider audience.</p>
-      <p><a href="https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing" target="_blank" rel="noopener noreferrer">WebXR Cross-Platform XR Experience</a></p>
+      <p><a href="https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing" target="_blank" rel="noopener noreferrer">Explore the drive link</a></p>
     `,
   
     gallery: [
