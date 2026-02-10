@@ -13,13 +13,13 @@ export default {
     citation:'',
     mainArt: {
       type: 'image',
-      src: 'images/publications/metaverse/main.jpg',
+      src: '/images/UE_Meta/NFT_pic.png',
       alt: 'Metaverse Environment',
       description: ''
     },
     secondaryArt: {
       type: 'image',
-      src: 'images/publications/metaverse/secondary.jpg',
+      src: 'images/publications/metaverse/main.jpg',
       alt: 'Avatar Customization',
       description: ''
     },

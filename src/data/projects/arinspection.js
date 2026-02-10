@@ -13,7 +13,7 @@ export default {
     citation:'',
     mainArt: {
       type: 'image',
-      src: 'images/publications/arinspection/main.jpg',
+      src: '/images/Robotic_ARM/Robotic_ARM_1.png',
       alt: 'AI-Driven AR Inspection System',
       description: ''
     },
