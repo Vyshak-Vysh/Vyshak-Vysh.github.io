@@ -51,8 +51,8 @@
         </div>
         <div class="right">
           <ArtBlock :art="project.mainArt" />
-          <a href="https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="drive-link">
-            Click here to view the Drive link
+          <a href="https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="drive-link" title="WebXR Cross-Platform XR Experience">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
           </a>
         </div>
       </div>
@@ -359,8 +359,8 @@ onMounted(() => {
   text-align: center;
   margin-top: 1rem;
   color: var(--accent-color-button); /* Or another suitable color from your theme */
-  text-decoration: underline;
-  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  font-weight: normal; /* Remove bold */
 }
 
 .drive-link:hover {
