@@ -19,7 +19,7 @@
       >
       </video>
     </div>
-    <p class="description">{{ art.description }}</p>
+    <p class="description" v-html="art.description"></p>
   </div>
 </template>
 
