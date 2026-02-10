@@ -64,7 +64,7 @@ export default {
       bottomText: 'Blender Project Asset'
     },
     {
-      type: 'image',
+      type: 'image',.
       src: '/images/Blender_prj/Dungeon002.png',
       alt: 'Dungeon Asset 02',
       topText: '',
