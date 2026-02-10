@@ -11,12 +11,6 @@ export default {
     tags: ['WebXR', 'AR', 'VR', 'Unity', 'Web3D', 'Cross-Platform'],
     link1:[''],
     citation:'',
-    mainArt: {
-      type: 'image',
-      src: '/images/WebXR_Prj/WebXR_pic.png',
-      alt: 'Desert XR Environment',
-      description: ''
-    },
     secondaryArt: {
       type: 'image',
       src: '/images/WebXR_Prj/WebXR_pic.png', // Changed from video to image
@@ -57,22 +51,5 @@ export default {
       <h3>Impact</h3>
       <p>Demonstrated how Unity-based WebXR applications can deliver immersive XR experiences directly through the browser, significantly lowering entry barriers and expanding XR access to a wider audience.</p>
       <p><a href="https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing" target="_blank" rel="noopener noreferrer">Explore the drive link</a></p>
-    `,
-  
-    gallery: [
-      {
-        type: 'image',
-        src: '/images/publications/webxr/main.jpg',
-        alt: 'Desert Landscape',
-        topText: '',
-        bottomText: 'Browser-based immersive environment'
-      },
-      {
-        type: 'image',
-        src: '/images/publications/webxr/secondary.jpg',
-        alt: 'AR Mode',
-        topText: '',
-        bottomText: 'WebXR AR interaction on mobile'
-      },
-      ]
+    `
 }
