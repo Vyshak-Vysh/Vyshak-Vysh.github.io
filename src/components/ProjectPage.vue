@@ -51,6 +51,9 @@
         </div>
         <div class="right">
           <ArtBlock :art="project.mainArt" />
+          <a href="https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="drive-link">
+            Click here to view the Drive link
+          </a>
         </div>
       </div>
     </div>
@@ -349,5 +352,18 @@ onMounted(() => {
   .link-button {
     align-self: stretch;
   }
+}
+
+.drive-link {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--accent-color-button); /* Or another suitable color from your theme */
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.drive-link:hover {
+  color: var(--hover-color-button);
 }
 </style>
