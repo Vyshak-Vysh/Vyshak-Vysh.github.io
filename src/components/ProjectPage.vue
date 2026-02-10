@@ -53,7 +53,7 @@
           <ArtBlock :art="project.mainArt" />
           <a href="https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="drive-link" title="WebXR Cross-Platform XR Experience">
             <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-            <span class="drive-link-text">WebXR project</span>
+            <span class="drive-link-text">WebXR Experience</span>
           </a>
         </div>
       </div>
@@ -374,12 +374,12 @@ onMounted(() => {
   justify-content: center; /* Horizontally center items */
   gap: 0.5rem; /* Space between icon and text */
   text-decoration: none;
-  margin-top: 1rem;
-  color: var(--accent-color-button); /* Default color for the link */
+  margin-top: 2rem; /* Increased margin to move it down */
+  color: var(--text-color); /* Adapt to theme */
 }
 
 .drive-link-text {
-  color: white; /* Make the text white */
+  color: var(--text-color); /* Adapt to theme */
   font-weight: bold; /* Keep it bold for visibility */
 }
 </style>
