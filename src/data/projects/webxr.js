@@ -20,7 +20,7 @@ export default {
     summaryHtml: `
       <h3>Overview</h3>
       <p>A WebXR-based immersive desert exploration experience built using Unity WebGL, accessible directly through web browsers. The application supports VR headsets, AR-capable mobile devices, and desktop browsers, enabling users to experience XR content without installing native applications.</p>
-      
+
       <h3>Key Features</h3>
       <ul>
         <li><strong>Cross-Platform Compatibility:</strong> Works seamlessly on mobile browsers, PCs, and WebXR-supported VR headsets</li>
@@ -50,14 +50,6 @@ export default {
 
       <h3>Impact</h3>
       <p>Demonstrated how Unity-based WebXR applications can deliver immersive XR experiences directly through the browser, significantly lowering entry barriers and expanding XR access to a wider audience.</p>
-    `,
-    gallery: [
-      {
-        type: 'image',
-        src: '/images/WebXR_Prj/WebXR_pic.png',
-        alt: 'WebXR Project',
-        topText: '',
-        bottomText: 'WebXR Project'
-      }
-    ]
+      <p><a href="https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing" target="_blank" rel="noopener noreferrer">Explore the drive link</a></p>
+    `
 }
