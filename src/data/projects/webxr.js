@@ -49,13 +49,5 @@ export default {
     <h3>Impact</h3>
     <p>Demonstrated how Unity-based WebXR applications can deliver immersive XR experiences directly through the browser, significantly lowering entry barriers and expanding XR access to a wider audience.</p>
   `,
-  gallery: [
-    {
-      type: 'image',
-      src: '/images/WebXR_Prj/WebXR_pic.png',
-      alt: 'WebXR Project',
-      topText: '',
-      bottomText: 'WebXR Project'
-    }
-  ]
+  
 };
