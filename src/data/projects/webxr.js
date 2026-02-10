@@ -9,6 +9,9 @@ export default {
   cardImage: '/images/WebXR_Prj/WebXR_pic.png',
   shortDescription: 'A browser-based desert-themed XR environment accessible without native installation, optimized for mobile, PC, and VR browsers.',
   tags: ['WebXR', 'AR', 'VR', 'Unity', 'Web3D', 'Cross-Platform'],
+  externalLink: 'https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing',
+  externalLinkText: 'WebXR Experience',
+  externalLinkTitle: 'WebXR Cross-Platform XR Experience',
   mainArt: {
     type: 'image',
     src: '/images/WebXR_Prj/WebXR_pic.png',
