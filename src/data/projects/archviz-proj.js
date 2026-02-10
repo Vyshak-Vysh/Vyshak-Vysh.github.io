@@ -9,13 +9,16 @@ export default {
     types: ['VR Walkthrough', 'Visualization', 'Unreal Engine'],
     shortDescription: 'A high-fidelity, interactive Dubai apartment replica built for immersive architectural visualization with real-time customization capabilities.',
     tags: ['VR', 'Unreal Engine', 'Blender', 'ArchViz', 'Real Estate', 'Photorealism'],
+    externalLink: 'https://drive.google.com/drive/folders/1KX1zORN5uA7MWT8IxcBJK8I0O87kaARy?usp=drive_link',
+    externalLinkText: 'Archviz Model',
+    externalLinkTitle: 'Archviz Model',
     link1:[''],
     citation:'',
     mainArt: {
       type: 'image',
       src: '/images/UE_Dubai/Archviz.png',
       alt: 'Dubai Apartment Visualization',
-      description: '<a href="https://drive.google.com/drive/folders/1KX1zORN5uA7MWT8IxcBJK8I0O87kaARy?usp=sharing" target="_blank" rel="noopener noreferrer" class="drive-link" title="Archviz Model"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg><span class="drive-link-text">Archviz Model</span></a>'
+      description: ''
     },
     secondaryArt: {
       type: 'image',
