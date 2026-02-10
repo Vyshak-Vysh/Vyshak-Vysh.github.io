@@ -170,9 +170,9 @@
     
     <h3>Key Assets Created</h3>
     <ul>
-      <li>Stylized Axe Weapon – Game-ready melee asset with clean topology</li>
-      <li>Low-Poly Lighthouse – Environmental prop designed for open scenes and world-building</li>
-      <li>Dungeon Environment Models – Modular dungeon assets optimized for reuse and scalability</li>
+      <li><strong>Stylized Axe Weapon</strong><br>Game-ready melee asset featuring clean topology and optimized geometry, suitable for real-time engines.</li>
+      <li><strong>Low-Poly Lighthouse</strong><br>Environmental prop designed for open scenes and world-building, with a focus on strong silhouette and visual clarity.</li>
+      <li><strong>Dungeon Environment Models</strong><br>Modular low-poly dungeon assets optimized for reuse, scalability, and efficient level design.</li>
     </ul>
 
     <h3>Key Features</h3>
