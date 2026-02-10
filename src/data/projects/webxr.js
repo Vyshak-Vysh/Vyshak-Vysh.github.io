@@ -12,8 +12,8 @@ export default {
   mainArt: {
     type: 'image',
     src: '/images/WebXR_Prj/WebXR_pic.png',
-    alt: 'WebXR Interaction Image',
-    description: '<p style="margin-top: 10px; font-size: 1.1em;"><a href="https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing" target="_blank" rel="noopener noreferrer">Explore the drive link</a></p>'
+    alt: 'WebXR Cross-Platform XR Experience',
+    description: ''
   },
   summaryHtml: `
     <h3>Overview</h3>
