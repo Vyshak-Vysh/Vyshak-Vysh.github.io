@@ -22,8 +22,13 @@
           <i class="fa-brands fa-linkedin"></i>
         </a>
       </li>
+      <li>
+        <a href="/images/Vyshak.pdf" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Resume">
+          <i class="fa-solid fa-file-lines"></i>
+        </a>
+      </li>
     </ul>
-    <p class="footer-copy">&copy; 2025 Vyshak V. All rights reserved.</p>
+    <p class="footer-copy">&copy; 2026 Vyshak V. All rights reserved.</p>
   </footer>
 </template>
 
