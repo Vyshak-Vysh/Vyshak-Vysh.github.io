@@ -73,6 +73,39 @@ export default {
         alt: 'Avatar Customization',
         topText: '',
         bottomText: 'NFT-based avatar personalization'
+      },
+      {
+        type: 'video',
+        src: '/images/UE_Meta/Minimap.mp4',
+        alt: 'Minimap in Metaverse',
+        topText: '',
+        bottomText: 'Minimap functionality',
+        controls: true,
+        autoplay: true,
+        loop: true,
+        muted: true
+      },
+      {
+        type: 'video',
+        src: '/images/UE_Meta/MultiVision.mp4',
+        alt: 'MultiVision in Metaverse',
+        topText: '',
+        bottomText: 'MultiVision feature',
+        controls: true,
+        autoplay: true,
+        loop: true,
+        muted: true
+      },
+      {
+        type: 'video',
+        src: '/images/UE_Meta/NFT_pic.mp4', // Assuming NFT_pic.mp4 is the correct file for NFT Wallet
+        alt: 'NFT Wallet Interaction',
+        topText: '',
+        bottomText: 'NFT Wallet and transaction system',
+        controls: true,
+        autoplay: true,
+        loop: true,
+        muted: true
       }
     ]
 }
