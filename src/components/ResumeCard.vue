@@ -1,6 +1,15 @@
 <script setup>
 import { ref } from 'vue';
 
+// --- Contact Information ---
+const contact = ref({
+    github: 'https://github.com/Vyshak-V', // Replace with actual GitHub URL
+    linkedin: 'https://www.linkedin.com/in/vyshak-v/', // Replace with actual LinkedIn URL
+    email: 'vyshak.v@example.com', // Replace with actual email
+    mobile: '+91 9876543210', // Replace with actual mobile number
+    resumePdf: '/images/Vyshak.pdf' // Path to the resume PDF
+});
+
 // --- Data for the resume ---
 
 const experience = ref([
@@ -50,6 +59,30 @@ const interests = ref([
 
 <template>
     <div class="resume-container">
+        <div class="contact-info-section card">
+            <div class="contact-links">
+                <a :href="contact.github" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 3c-.52-1.33-2.06-2.83-4.3-2.83-1.13 0-2.23.52-3 1.52A4.2 4.2 0 0 0 12 2.9c-.77-1-1.87-1.52-3-1.52-2.24 0-3.78 1.5-4.3 2.83A5.07 5.07 0 0 0 4 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    <span>GitHub</span>
+                </a>
+                <a :href="contact.linkedin" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    <span>LinkedIn</span>
+                </a>
+                <a :href="'mailto:' + contact.email" class="contact-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    <span>Email</span>
+                </a>
+                <a :href="'tel:' + contact.mobile" class="contact-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2H7c.58 0 .99.34 1.17.71L10 5.17c.16.35.16.8.06 1.11L8.2 8.3c-.22.28-.28.67-.14 1.03 1.54 3.86 4.01 6.33 7.87 7.87.36.14.75.08 1.03-.14l2.02-1.87c.3-.1.76-.1.11.06L21.29 15.83c.37.18.71.59.71 1.17z"></path></svg>
+                    <span>Mobile</span>
+                </a>
+            </div>
+            <a :href="contact.resumePdf" target="_blank" rel="noopener noreferrer" class="read-button resume-download-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                Download Resume
+            </a>
+        </div>
         <main class="resume-body">
             <section id="experience">
                 <h2 class="section-title">Work Experience</h2>
@@ -388,6 +421,76 @@ const interests = ref([
     .tag, .skill-tag {
         font-size: 0.75rem;
         padding: 0.4rem 0.8rem;
+    }
+}
+
+/* New styles for contact info and resume download */
+.contact-info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem; /* Inherits card padding */
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: var(--accent-color);
+}
+
+.contact-link svg {
+    width: 20px;
+    height: 20px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.resume-download-button {
+    align-self: center;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.resume-download-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 640px) {
+    .contact-links {
+        justify-content: center;
+        gap: 1rem;
+    }
+    .contact-link {
+        font-size: 0.9rem;
+    }
+    .resume-download-button {
+        width: 100%;
+        justify-content: center;
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
     }
 }
 </style>
