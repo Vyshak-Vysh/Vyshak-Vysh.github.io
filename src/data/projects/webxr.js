@@ -9,9 +9,9 @@ export default {
   cardImage: '/images/WebXR_Prj/WebXR_pic.png',
   shortDescription: 'A browser-based desert-themed XR environment accessible without native installation, optimized for mobile, PC, and VR browsers.',
   tags: ['WebXR', 'AR', 'VR', 'Unity', 'Web3D', 'Cross-Platform'],
-  externalLink: 'https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing',
-  externalLinkText: 'WebXR Experience',
-  externalLinkTitle: 'WebXR Cross-Platform XR Experience',
+  // externalLink: 'https://drive.google.com/file/d/1_ZhkjfSrmrJwIFZcLBNW6vsCA_I1Zh2D/view?usp=sharing',
+  // externalLinkText: 'WebXR Experience',
+  // externalLinkTitle: 'WebXR Cross-Platform XR Experience',
   mainArt: {
     type: 'image',
     src: '/images/WebXR_Prj/WebXR_pic.png',
@@ -52,5 +52,20 @@ export default {
     <h3>Impact</h3>
     <p>Demonstrated how Unity-based WebXR applications can deliver immersive XR experiences directly through the browser, significantly lowering entry barriers and expanding XR access to a wider audience.</p>
   `,
+
+  gallery: [
+      {
+        type: 'video',
+        src: '/images/WebXR_Prj/WebXR_Video.mp4',
+        alt: 'WebXR Experience Video',
+        topText: '',
+        bottomText: 'WebXR Cross-Platform Experience',
+        controls: true,
+        autoplay: true,
+        loop: true,
+        muted: true
+      },
+
+  ]    
   
 };
