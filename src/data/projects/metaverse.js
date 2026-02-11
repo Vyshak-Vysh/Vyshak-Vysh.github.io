@@ -17,12 +17,7 @@ export default {
       alt: 'Metaverse Environment',
       description: ''
     },
-    secondaryArt: {
-      type: 'image',
-      src: 'images/publications/metaverse/main.jpg',
-      alt: 'Avatar Customization',
-      description: ''
-    },
+    
     summaryHtml: `
       <h3>Overview</h3>
       <p>
@@ -61,20 +56,6 @@ export default {
   
     gallery: [
       {
-        type: 'image',
-        src: '/images/publications/metaverse/main.jpg',
-        alt: 'Metaverse Space',
-        topText: '',
-        bottomText: 'Immersive virtual environment'
-      },
-      {
-        type: 'image',
-        src: '/images/publications/metaverse/secondary.jpg',
-        alt: 'Avatar Customization',
-        topText: '',
-        bottomText: 'NFT-based avatar personalization'
-      },
-      {
         type: 'video',
         src: '/images/UE_Meta/Minimap.mp4',
         alt: 'Minimap in Metaverse',
@@ -98,7 +79,7 @@ export default {
       },
       {
         type: 'video',
-        src: '/images/UE_Meta/NFT_pic.mp4', // Assuming NFT_pic.mp4 is the correct file for NFT Wallet
+        src: '/images/UE_Meta/NFT Wallet.mp4', // Assuming NFT_pic.mp4 is the correct file for NFT Wallet
         alt: 'NFT Wallet Interaction',
         topText: '',
         bottomText: 'NFT Wallet and transaction system',
