@@ -104,14 +104,14 @@ export default {
       },
       {
         type: 'image',
-        src: '/images/UE_Meta/GYM04.png',
+        src: '/images/UE_Meta/GYM02.png',
         alt: 'GYM04',
         topText: '',
         bottomText: 'GYM04'
       },
       {
         type: 'image',
-        src: '/images/UE_Meta/GYM02.png',
+        src: '/images/UE_Meta/GYM04.png',
         alt: 'GYM05',
         topText: '',
         bottomText: 'GYM05'
