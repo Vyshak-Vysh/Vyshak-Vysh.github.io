@@ -17,6 +17,9 @@
         <li>
           <a href="https://www.linkedin.com/in/vyshak-v-591101234/" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
         </li>
+        <li>
+          <a href="/images/Vyshak.pdf" target="_blank" rel="noopener noreferrer" class="btn-social btn-outline"><i class="fa fa-fw fa-file-text-o"></i></a>
+        </li>
       </ul>
     </div>
   </section>
