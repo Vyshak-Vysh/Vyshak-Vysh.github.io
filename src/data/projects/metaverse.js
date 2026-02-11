@@ -111,7 +111,7 @@ export default {
       },
       {
         type: 'image',
-        src: '/images/UE_Meta/GYM05.png',
+        src: '/images/UE_Meta/GYM02.png',
         alt: 'GYM05',
         topText: '',
         bottomText: 'GYM05'
