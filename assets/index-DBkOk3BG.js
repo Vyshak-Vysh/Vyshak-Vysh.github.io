@@ -79,6 +79,14 @@
         <li><strong>3D Model Optimization:</strong> Efficient model preparation for real-time rendering</li>
         <li><strong>Spatial Mapping:</strong> Accurate environment understanding and alignment</li>
       </ul>
+
+    externalLink: 'https://drive.google.com/drive/folders/1in1VB_mX_nyk0GXawjRvd05TmbSKCNrw?usp=sharing',
+    externalLinkText: 'Industrial Iron beam Inspection',
+    externalLinkTitle: 'Industrial Iron beam Inspection',
+    link1:[''],
+    citation:'',
+
+
     `},La={id:3,show:!0,slug:"archviz-visualization",link:"/project/archviz-visualization",cardImage:"/images/UE_Dubai/Archviz.png",title:"ArchViz & Interactive Interior Visualization",role:"VR Developer",types:["VR Walkthrough","Visualization","Unreal Engine"],shortDescription:"A high-fidelity, interactive Dubai apartment replica built for immersive architectural visualization with real-time customization capabilities.",tags:["VR","Unreal Engine","Blender","ArchViz","Real Estate","Photorealism"],citation:"",mainArt:{type:"image",src:"/images/UE_Dubai/Archviz.png",alt:"Dubai Apartment Visualization"},secondaryArt:{type:"video",src:"/images/UE_Dubai/Interior_Design.mp4",alt:"Interior Design Walkthrough",topText:"",bottomText:"Interior Design Walkthrough",controls:!0,autoplay:!0,loop:!0,muted:!0},summaryHtml:`
       <h3>Overview</h3>
       <p>
