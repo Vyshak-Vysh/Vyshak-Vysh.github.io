@@ -46,7 +46,13 @@ export default {
       </ul>
 
       <h3>Technical Implementation</h3>
-      <p>Swift (iOS), ARKit, Vuforia Engine, 3D Model Optimization, Spatial Mapping</p>
+      <ul>
+        <li><strong>Swift (iOS):</strong> Native iOS development for optimal performance and compatibility</li>
+        <li><strong>ARKit:</strong> Apple's AR framework for device tracking and spatial mapping</li>
+        <li><strong>Vuforia Engine:</strong> Advanced model-based tracking for precise asset alignment</li>
+        <li><strong>3D Model Optimization:</strong> Efficient model preparation for real-time rendering</li>
+        <li><strong>Spatial Mapping:</strong> Accurate environment understanding and alignment</li>
+      </ul>
     `,
   
 }

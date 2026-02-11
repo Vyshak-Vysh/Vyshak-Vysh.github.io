@@ -48,7 +48,14 @@ export default {
       </ul>
 
       <h3>Technical Stack</h3>
-      <p>Unity 6, C#, OpenCV, ARKit, Python (backend), iOS SDK</p>
+      <ul>
+        <li><strong>Unity 6:</strong> Game engine and AR development platform</li>
+        <li><strong>C#:</strong> Programming language for Unity development</li>
+        <li><strong>OpenCV:</strong> Computer vision library for deviation detection</li>
+        <li><strong>ARKit:</strong> Apple's AR framework for iOS device tracking</li>
+        <li><strong>Python (backend):</strong> OpenCV, Yolo for Backend processing and data handling</li>
+        <li><strong>iOS SDK:</strong> Native iOS development tools and frameworks</li>
+      </ul>
     `,
   
     gallery: [
