@@ -24,7 +24,12 @@ export default {
       type: 'image',
       src: 'images/publications/archviz/secondary.jpg',
       alt: 'Interior Design Walkthrough',
-      description: ''
+      description: '',
+      // bottomText: 'Minimap functionality',
+      controls: true,
+      autoplay: true,
+      loop: true,
+      muted: true
     },
     summaryHtml: `
       <h3>Overview</h3>
