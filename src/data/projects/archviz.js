@@ -10,7 +10,7 @@ export default {
     shortDescription: 'A large-scale industrial AR inspection project focused on structural accuracy before logistics and transportation using ARKit and Vuforia Model Targets.',
     tags: ['AR', 'ARKit', 'Vuforia', 'Industrial', 'Structural Analysis'],
     externalLink: 'https://drive.google.com/drive/folders/1in1VB_mX_nyk0GXawjRvd05TmbSKCNrw?usp=sharing',
-    externalLinkText: 'Industrial Iron beam Inspection',
+    externalLinkText: 'Explore the Industrial Iron beam Inspection',
     externalLinkTitle: 'Industrial Iron beam Inspection',
     link1:[''],
     citation:'',
