@@ -87,6 +87,34 @@ export default {
         autoplay: true,
         loop: true,
         muted: true
+      },
+      {
+        type: 'image',
+        src: '/images/UE_Meta/ClubHouse_GamePlayRoom.png',
+        alt: 'ClubHouse GamePlayRoom',
+        topText: '',
+        bottomText: 'ClubHouse GamePlayRoom'
+      },
+      {
+        type: 'image',
+        src: '/images/UE_Meta/GYM01.png',
+        alt: 'GYM01',
+        topText: '',
+        bottomText: 'GYM01'
+      },
+      {
+        type: 'image',
+        src: '/images/UE_Meta/GYM04.png',
+        alt: 'GYM04',
+        topText: '',
+        bottomText: 'GYM04'
+      },
+      {
+        type: 'image',
+        src: '/images/UE_Meta/GYM05.png',
+        alt: 'GYM05',
+        topText: '',
+        bottomText: 'GYM05'
       }
     ]
 }
