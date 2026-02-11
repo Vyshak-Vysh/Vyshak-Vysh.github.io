@@ -39,12 +39,13 @@ export default {
     
 
     <h3>Technical Stack</h3>
-    <li>Blender</li>
-    <li>Low-Poly Modeling</li>
-    <li>UV Mapping</li>
-    <li>Stylized Asset Design</li>
-    <li>Game-Ready Asset Export</li>
-  </ul>
+    <ul>
+      <li>Blender</li>
+      <li>Low-Poly Modeling</li>
+      <li>UV Mapping</li>
+      <li>Stylized Asset Design</li>
+      <li>Game-Ready Asset Export</li>
+    </ul>
   `,
   gallery: [
     {
