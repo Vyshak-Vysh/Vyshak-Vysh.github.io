@@ -31,13 +31,13 @@
             <!-- SVG for external link icon -->
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
           </a>
-        </div>
-        <div class="right">
-          <ArtBlock :art="project.mainArt" />
           <a v-if="project.externalLink" :href="project.externalLink" target="_blank" rel="noopener noreferrer" class="drive-link" :title="project.externalLinkTitle || 'External Link'">
             <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
             <span class="drive-link-text">{{ project.externalLinkText || 'View Project' }}</span>
           </a>
+        </div>
+        <div class="right">
+          <ArtBlock :art="project.mainArt" />
         </div>
       </div>
     </div>
@@ -52,13 +52,13 @@
         <div class="left">
           <ProjectSummary :summaryHtml="project.summaryHtml" />
           <ProjectDetail :detailsHtml="project.detailsHtml" />
-        </div>
-        <div class="right">
-          <ArtBlock :art="project.mainArt" />
           <a v-if="project.externalLink" :href="project.externalLink" target="_blank" rel="noopener noreferrer" class="drive-link" :title="project.externalLinkTitle || 'External Link'">
             <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
             <span class="drive-link-text">{{ project.externalLinkText || 'View Project' }}</span>
           </a>
+        </div>
+        <div class="right">
+          <ArtBlock :art="project.mainArt" />
         </div>
       </div>
     </div>

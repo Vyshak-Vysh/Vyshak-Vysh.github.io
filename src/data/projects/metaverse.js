@@ -11,6 +11,9 @@ export default {
     tags: ['Metaverse', 'NFT', 'Web3', 'Wallet Integration', 'Blockchain', 'Unreal Engine'],
     link1:[''],
     citation:'',
+    externalLink: 'https://drive.google.com/drive/folders/1in1VB_mX_nyk0GXawjRvd05TmbSKCNrw?usp=sharing',
+    externalLinkText: 'Industrial Iron beam Inspection',
+    externalLinkTitle: 'Industrial Iron beam Inspection',
     mainArt: {
       type: 'image',
       src: '/images/UE_Meta/NFT_pic.png',
@@ -104,17 +107,17 @@ export default {
       },
       {
         type: 'image',
-        src: '/images/UE_Meta/GYM02.png',
+        src: '/images/UE_Meta/GYM04.png',
         alt: 'GYM04',
         topText: '',
-        bottomText: 'GYM03'
+        bottomText: 'GYM04'
       },
       {
         type: 'image',
-        src: '/images/UE_Meta/GYM04.png',
+        src: '/images/UE_Meta/GYM05.png',
         alt: 'GYM05',
         topText: '',
-        bottomText: 'GYM02'
+        bottomText: 'GYM05'
       }
     ]
 }

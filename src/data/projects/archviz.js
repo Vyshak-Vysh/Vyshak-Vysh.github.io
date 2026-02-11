@@ -54,12 +54,6 @@ export default {
         <li><strong>Spatial Mapping:</strong> Accurate environment understanding and alignment</li>
       </ul>
 
-    externalLink: 'https://drive.google.com/drive/folders/1in1VB_mX_nyk0GXawjRvd05TmbSKCNrw?usp=sharing',
-    externalLinkText: 'Industrial Iron beam Inspection',
-    externalLinkTitle: 'Industrial Iron beam Inspection',
-    link1:[''],
-    citation:'',
-
 
     `,
   
