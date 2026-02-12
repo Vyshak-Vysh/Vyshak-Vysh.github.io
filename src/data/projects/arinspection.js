@@ -56,17 +56,33 @@ export default {
     gallery: [
       {
         type: 'image',
-        src: '/images/publications/arinspection/main.jpg',
-        alt: 'AR Inspection Interface',
-        topText: '',
+        src: '/images/Robotic_ARM/Robotic_ARM_1.png',
+        alt: 'Robotic ARM',
         bottomText: 'Real-time deviation visualization'
       },
       {
         type: 'image',
-        src: '/images/publications/arinspection/secondary.jpg',
-        alt: 'AR Measurements',
-        topText: '',
+        src: '/images/Robotic_ARM/Realtime AR Model.png',
+        alt: 'Realtime AR Model',
         bottomText: 'Precision measurement overlays'
+      },
+      {
+        type: 'image',
+        src: '/images/Robotic_ARM/analyzed_Capture.png',
+        alt: 'Analyzed Capture',
+        bottomText: 'Analyzed Capture'
+      },
+      {
+        type: 'image',
+        src: '/images/Robotic_ARM/Inspection Results.png',
+        alt: 'Inspection Results',
+        bottomText: 'Inspection Results'
+      },
+      {
+        type: 'image',
+        src: '/images/Robotic_ARM/Vuforia Model.png',
+        alt: 'Vuforia Model',
+        bottomText: 'Vuforia Model'
       }
     ]
 }
