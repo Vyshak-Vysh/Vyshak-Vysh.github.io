@@ -13,16 +13,11 @@ export default {
     citation:'',
     mainArt: {
       type: 'image',
-      src: '/images/Robotic_ARM/Robotic_ARM_1.png',
+      src: '/images/Robotic_ARM/Robotic_ARM.png',
       alt: 'AI-Driven AR Inspection System',
       description: ''
     },
-    secondaryArt: {
-      type: 'image',
-      src: 'images/publications/arinspection/secondary.jpg',
-      alt: 'AR Interface',
-      description: ''
-    },
+  
     summaryHtml: `
       <h3>Overview</h3>
       <p>
