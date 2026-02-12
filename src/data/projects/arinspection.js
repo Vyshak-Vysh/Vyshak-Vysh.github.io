@@ -56,9 +56,15 @@ export default {
     gallery: [
       {
         type: 'image',
-        src: '/images/Robotic_ARM/Robotic_ARM_1.png',
-        alt: 'Robotic ARM',
-        bottomText: 'Real-time deviation visualization'
+        src: '/images/Robotic_ARM/Vuforia Model.png',
+        alt: 'Vuforia Model',
+        bottomText: 'Vuforia Model'
+      },
+      {
+        type: 'image',
+        src: '/images/Robotic_ARM/Inspection Results.png',
+        alt: 'Inspection Results',
+        bottomText: 'Inspection Results'
       },
       {
         type: 'image',
@@ -74,15 +80,9 @@ export default {
       },
       {
         type: 'image',
-        src: '/images/Robotic_ARM/Inspection Results.png',
-        alt: 'Inspection Results',
-        bottomText: 'Inspection Results'
-      },
-      {
-        type: 'image',
-        src: '/images/Robotic_ARM/Vuforia Model.png',
-        alt: 'Vuforia Model',
-        bottomText: 'Vuforia Model'
+        src: '/images/Robotic_ARM/Robotic_ARM_1.png',
+        alt: 'Robotic ARM',
+        bottomText: 'Real-time deviation visualization'
       }
     ]
 }
