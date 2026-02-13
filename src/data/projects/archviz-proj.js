@@ -68,17 +68,21 @@ export default {
     gallery: [
       {
         type: 'image',
-        src: '/images/publications/archviz/main.jpg',
-        alt: 'Living Room',
-        topText: '',
-        bottomText: 'Photorealistic living space'
+        src: '/images/UE_Dubai/BathRoom.png',
+        alt: 'Bathroom',
+        bottomText: 'Photorealistic bathroom'
       },
       {
         type: 'image',
-        src: '/images/publications/archviz/secondary.jpg',
-        alt: 'Bedroom View',
-        topText: '',
-        bottomText: 'Interactive interior design'
+        src: '/images/UE_Dubai/Hall.png',
+        alt: 'Hall',
+        bottomText: 'Interactive hall design'
+      },
+      {
+        type: 'image',
+        src: '/images/UE_Dubai/pic.png',
+        alt: 'Pic',
+        bottomText: 'Pic'
       }
     ]
 }
