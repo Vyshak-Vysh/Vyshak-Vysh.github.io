@@ -70,19 +70,19 @@ export default {
         type: 'image',
         src: '/images/UE_Dubai/BathRoom.png',
         alt: 'Bathroom',
-        bottomText: 'Photorealistic bathroom'
+        bottomText: 'Modern Sanctuary'
       },
       {
         type: 'image',
         src: '/images/UE_Dubai/Hall.png',
         alt: 'Hall',
-        bottomText: 'Interactive hall design'
+        bottomText: 'Grand Entrance'
       },
       {
         type: 'image',
         src: '/images/UE_Dubai/pic.png',
         alt: 'Pic',
-        bottomText: 'Pic'
+        bottomText: 'Virtual Living'
       }
     ]
 }
