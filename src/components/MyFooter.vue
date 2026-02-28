@@ -13,12 +13,7 @@
         </a>
       </li>
       <li>
-        <a href="https://github.com/Vyshak-Vysh" class="social-btn" aria-label="GitHub">
-          <i class="fa-brands fa-github"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/vyshak-v-591101234/" class="social-btn" aria-label="LinkedIn">
+        <a href="https.www.linkedin.com/in/vyshak-v-591101234/" class="social-btn" aria-label="LinkedIn">
           <i class="fa-brands fa-linkedin"></i>
         </a>
       </li>
